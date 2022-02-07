@@ -179,13 +179,15 @@
             },
             async InitSceneData(viewer) {
                 await AddWMTSLayers(viewer);
-                await AddArcGISLayers(viewer);
-                await AddTerrainLayers(viewer);
 
-                // var shapemapbox = new Cesium.ArcGisMapServerImageryProvider({
-                //     url : 'http://map.geoq.cn/arcgis/rest/services/ChinaOnlineStreetPurplishBlue/MapServer'
-                // });
-                // viewer.imageryLayers.addImageryProvider(shapemapbox,5);
+                await AddArcGISLayers(viewer);
+
+                // await AddTerrainLayers(viewer);
+
+                var shapemapbox = new Cesium.ArcGisMapServerImageryProvider({
+                    url : 'http://map.geoq.cn/arcgis/rest/services/ChinaOnlineStreetPurplishBlue/MapServer'
+                });
+                viewer.imageryLayers.addImageryProvider(shapemapbox,5);
 
             },
             callbackUPDataPosition(lon,lat,height,heading,pitch,roll) {

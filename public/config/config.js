@@ -1,9 +1,4 @@
 /**
- * @Description:三维配置文件包括基础图层参数配置和基本的可配置参数设置
- * @author 杜晓辉
- * @date 2021/3/18 10:33:31
- */
-/**
  *
  * @type {{WMTSLayerImg: [{show: boolean, index: number, url: string}, {show: boolean, index: number, url: string}, {show: boolean, index: number, url: string}, {show: boolean, index: number, url: string}, {show: boolean, index: number, url: string}], Cesiumtoken: string, initviewRectangle: number[], initviewpoint: number[], EarthDEM: [{name: string, show: boolean, style: string, url: string}], ArcGISLayerImg: []}}
  */
