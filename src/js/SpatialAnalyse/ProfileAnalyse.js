@@ -3,7 +3,7 @@
  * @author  ZQ
  * @date 2022/2/8 18:53:48
  */
-import * as Cesium from 'cesium/Build/Cesium/Cesium'
+import * as Cesium from 'cesium'
 import * as echarts from 'echarts';
 
 export const profile = {

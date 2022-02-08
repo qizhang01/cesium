@@ -9,7 +9,7 @@
  * @param index
  * @constructor
  */
-import * as Cesium from 'cesium/Build/Cesium/Cesium'
+import * as Cesium from 'cesium'
 
 export function AddArcGISLayers(viewer,index) {
     let  ArcGISLayer;

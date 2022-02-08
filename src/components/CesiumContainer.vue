@@ -39,7 +39,7 @@
 
     import 'cesium/Build/Cesium/Widgets/widgets.css'
     import '../assets/Cesiumstyle.css'
-    import * as Cesium from 'cesium/Build/Cesium/Cesium'
+    import * as Cesium from 'cesium'
     import CesiumNavigation from 'cesium-navigation-es6'
     import Navigation from "./Navigation";
 
